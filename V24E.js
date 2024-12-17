@@ -23011,4 +23011,13 @@ let data = [
 ];
 //1 print each card where the series set is "Diamond & Pearl"
 
+const filtered = data.filter((series) => (data.series = "Diamond & Pearl"));
+console.log(filtered);
+
 //2 print each card name where the card type "includes" Water
+
+// const res = data.includes((data.types = "water"));
+
+// if (res) {
+//   console.log(res);
+// }
